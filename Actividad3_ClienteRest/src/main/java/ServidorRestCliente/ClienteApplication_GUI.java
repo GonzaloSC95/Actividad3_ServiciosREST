@@ -100,7 +100,7 @@ public class ClienteApplication_GUI extends JFrame implements CommandLineRunner 
         panel.setMaximumSize(getMaximumSize());
         panel.setMinimumSize(getMinimumSize());
 
-        logo.setIcon(new javax.swing.ImageIcon("D:\\PROYECTOS_JAVA\\Actividad3_ServiciosREST\\Actividad3_ClienteRest\\img\\logo.png")); // NOI18N
+        logo.setIcon(new javax.swing.ImageIcon("img\\logo.png")); // NOI18N
         logo.setLabelFor(this);
 
         get_Videojuego.setBackground(new java.awt.Color(85, 17, 237));
