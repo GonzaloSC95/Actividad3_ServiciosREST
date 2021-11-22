@@ -100,7 +100,7 @@ public class ClienteApplication_GUI extends JFrame implements CommandLineRunner 
         panel.setMaximumSize(getMaximumSize());
         panel.setMinimumSize(getMinimumSize());
 
-        logo.setIcon(new javax.swing.ImageIcon("img\\logo.png")); // NOI18N
+        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logo.png"))); // NOI18N
         logo.setLabelFor(this);
 
         get_Videojuego.setBackground(new java.awt.Color(85, 17, 237));
@@ -254,8 +254,7 @@ public class ClienteApplication_GUI extends JFrame implements CommandLineRunner 
                             .addComponent(listar_Videojuegos, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(salir, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(184, 184, 184)
-                        .addComponent(jScrollPane1)
-                        .addGap(77, 77, 77))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 770, Short.MAX_VALUE))
                     .addGroup(panelLayout.createSequentialGroup()
                         .addGroup(panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(get_Videojuego, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -281,9 +280,9 @@ public class ClienteApplication_GUI extends JFrame implements CommandLineRunner 
                                         .addComponent(nota, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addComponent(borrar_Videojuego, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(modificar_Videojuego, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 144, Short.MAX_VALUE)
-                        .addComponent(logo)
-                        .addGap(121, 121, 121))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(logo)))
+                .addGap(77, 77, 77))
         );
         panelLayout.setVerticalGroup(
             panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

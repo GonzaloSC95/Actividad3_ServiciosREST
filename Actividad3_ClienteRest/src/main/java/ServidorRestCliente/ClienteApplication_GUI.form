@@ -65,16 +65,15 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="42" pref="42" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="listar_Videojuegos" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
                               <Component id="salir" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
-                          <Component id="jScrollPane1" max="32767" attributes="0"/>
-                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" pref="770" max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="get_Videojuego" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
@@ -106,11 +105,11 @@
                               <Component id="borrar_Videojuego" min="-2" pref="162" max="-2" attributes="0"/>
                               <Component id="modificar_Videojuego" min="-2" pref="162" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="144" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="logo" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -174,7 +173,7 @@
         <Component class="javax.swing.JLabel" name="logo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\PROYECTOS_JAVA\Actividad3_ServiciosREST\Actividad3_ClienteRest\img\logo.png"/>
+              <Image iconType="3" name="/logo.png"/>
             </Property>
             <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
               <ComponentRef name="Form"/>
